@@ -53,7 +53,7 @@ class LinebotsController < ApplicationController
   def make_reply_content(items)
     {
       "type": 'flex',
-      "altText": 'This is a Flex Message',
+      "altText": 'お買い物検索の結果です。',
       "contents":
       {
         "type": 'carousel',
